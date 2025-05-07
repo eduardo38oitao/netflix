@@ -1,0 +1,11 @@
+:root{
+    --branco-primaria: #ffffff;
+    --cinza-primaria: #9c9c9c;
+    --butão-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--branco-primaria);
+}
