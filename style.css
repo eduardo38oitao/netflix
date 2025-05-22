@@ -3,9 +3,54 @@
     --cinza-primaria: #9c9c9c;
     --butão-azul: #167bf7;
     --cor-de-fundo: #00030c;
+    --fonte-primaria: 'inter';
 
 }
 body{
     background-color: var(--cor-de-fundo);
     color:var(--branco-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    font-weight: 400;
 }
+.principal
+{
+     background-image: url(IMG/image\ 9.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: center;
+        text-align: center;
+        background-position: 30em -5em;
+        background-size: 900px;
+}
+  
+  .conteiner {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.conteiner_imagem{
+    margin: 0em 0 0em 0;
+    height: 33vh;
+    padding: 20px;
+}
+.segundario_imagem{
+    width: 100%;
+}
+.segundaria{
+   align-items: center;    
+   margin: 0;
+}
+.descricao_titulo{
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+.descricao_texto{
+    color: var(--cinza-primaria)
+}
+
+
+
+    
+
